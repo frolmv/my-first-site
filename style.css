@@ -1,0 +1,241 @@
+.header{
+margin: 0 auto;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(110, 104, 131);
+    top: 0px;
+}
+.header_button{
+    display: inline-block;
+padding: 10px 40px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+.header_button:hover{
+    background: grey;
+    color: white;
+}
+.slider{
+    background-image: url(img/polygons.png);
+    padding: 150px 0px ;
+    width: 800px;
+    margin: 50px auto;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+.slider_button{
+    background-color: white;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: black;
+    border-radius: 8px;
+}
+.slider_button:hover{
+    background-color: black;
+    color: white;
+}
+h2{
+    text-align: center;
+}
+.company{
+    width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+}
+.logo{
+    float: right;
+    width: 400px;
+}
+.position{
+    color: rgb(224, 224, 224);
+}
+.team{
+text-align: center;
+}
+
+.card{
+    box-shadow: 0 2px 5px grey;
+    width: 22%;
+    padding: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 1%;
+    text-align: left;
+
+}
+.card:hover{
+    box-shadow: 10px 12px 15px #055b73 ;
+}
+.card_img{
+    width: 100%;
+}
+.card_button{
+    border-radius: 8px;
+    background-color: #055b73;
+    width: 100%;
+    height: 50px;
+    color: white;
+    outline: none;
+    font-weight: 600;
+    border: none;
+}
+.card_button:hover{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border: 1px solid #000;
+}
+.price{
+    background-color: #616161
+    ;
+    color: white;
+    text-align: center;
+    padding: 30px ;
+}
+.piar{
+    width: 30%;
+    list-style-type: none;
+    background-color: white;
+    color: black;
+    padding: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.piar li{
+    padding: 10px 0;
+}
+.piar .piar_header{
+    background-color: black;
+    padding: 20px 0;
+    font-weight: 600;
+    color: white;
+    font-size: 24px;
+}
+.piar .pro{
+    background-color: #055b73;
+    padding: 35px 0;
+    
+}
+.pokupay_bistro{
+background-color: black;
+border-radius: 8px;
+width: 140px;
+height: 42px;
+color: white;
+font-weight: 600;
+border: none;
+outline: none;
+
+}
+.pokupay_bistro:hover{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+
+}
+.piar_buy{
+    background-color: #dddddd;
+
+
+}
+.piar_description{
+    border-bottom: 1px solid #dddddd
+    ;
+}
+.piar_price{
+    font-weight: 600;
+    font-size: 20px;
+}
+.bold{
+    font-weight: 600;
+}
+.v_den{
+    color: #dddddd;
+
+}
+.wrapper{
+    padding: 25px 100px;
+}
+.none_tochki{
+    list-style-type: none;
+    padding: 0px;
+}
+.gorod{
+    background-image: url(img/address.png);
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    background-size: 15px 15px;
+    margin-bottom: 10px;
+    
+}
+.telephone{
+    background-image: url(img/phone.png);
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    background-size: 15px 15px;
+    margin-bottom: 10px;
+}
+.mail{
+    background-image: url(img/mail.png);
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    background-size: 15px 15px;
+    margin-bottom: 10px;
+}
+
+.ne_budte_scromnim{
+    text-align: center;
+}
+.info{
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 7px;
+}
+.form_button{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 0 auto;
+    display: block;
+}
+.form_button:hover{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+.zashita{
+    background-color: black;
+    width: 100%;
+    color: white;
+
+}
+@media(max-width:575px){
+.slider{
+    width: 100%;
+}
+.company{
+    width: 100%;
+}
+.card{
+    display: block;
+    width: 100%;
+}
+.piar{
+    display: block;
+    width: 100%;
+}
+.wrapper{
+    padding: 25px;
+}
+.logo{
+    float: none;
+    width: 100%;
+}
+
+}
